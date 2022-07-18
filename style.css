@@ -438,3 +438,54 @@ header{
 
     border: 2px solid black;
 }
+
+
+
+/* Blocco6 */
+
+
+.Blocco6{
+    width: 100%;
+    height: 80vh;
+    background-color: #507b9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Blocco6-box{
+    width: 60%;
+    height: 80%;
+    background-color: #00569c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.Blocco6-Titolo{
+    width: 100%;
+    height: 20%;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+.Sezioni{
+    width: 100%;
+    height: 18%;
+    background-color: rgb(160, 0, 0);
+}
+
+.sopra{
+    border-top: 4px solid black;
+}
+
+.ALL{
+    border: 2px solid black;
+}
+
+
+.sotto{
+    border-bottom: 4px solid black;
+}
