@@ -245,3 +245,54 @@ header{
     height: 100%;
     background-color: #507b9e;
 }
+
+
+
+/* Blocco3 */
+
+
+.Blocco3{
+    width: 100%;
+    height: 110vh;
+    background-color: aliceblue;
+}
+
+.Blocco3-box{
+    width: 60%;
+    height: 100%;
+    background-color: #d6d6d6;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Blocco3-Titolo{
+    width: 100%;
+    height: 5%;
+    background-color: red;
+}
+
+
+.Blocco3-Card-box{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(175, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.Blocco-card{
+    width: 30%;
+    height: 47%;
+    background-color: #008cff;
+}
+
+.Blocco3-CosoBasso{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(109, 0, 0);
+}
