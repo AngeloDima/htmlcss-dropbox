@@ -211,3 +211,37 @@ header{
     height: 80%;
     background-color: #d6d6d6;
 }
+
+
+
+/* Blocco2 */
+
+
+.Blocco2{
+    width: 100%;
+    height: 80vh;
+    background-color: #003f72;
+    display: flex;
+    align-items: center;
+}
+
+.Blocco2-box{
+    width: 60%;
+    height: 80%;
+    background-color: #00569c;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FotoSX{
+    width: 60%;
+    height: 100%;
+    background-color: #b4d0e7;
+}
+
+.TestoDX{
+    width: 35%;
+    height: 100%;
+    background-color: #507b9e;
+}
