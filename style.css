@@ -344,3 +344,57 @@ header{
     background-color: rgb(179, 179, 179);
     
 }
+
+
+/* Blocco4 */
+
+
+.Blocco4{
+    width: 100%;
+    height: 50vh;
+    background-color: red;
+    display: flex;
+    margin-top: 100px;
+}
+
+.Blocco4-Blocchi{
+    width: 33.33%;
+    height: 100%;
+    background-color: #008cff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Blocco4-Blocchi:nth-child(2){
+    background-color: #507b9e;
+    display: flex;
+    flex-direction: column;
+}
+
+.Mini-Blocks{
+    width: 50%;
+    height: 50%;
+    background-color: #003f72;
+    color: white;
+}
+
+
+
+.Blocco4-Titolo{
+    width: 100%;
+    height: 25%;
+    background-color: red;
+}
+
+.Blocco4-Paragrafo{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(170, 0, 0);
+}
+
+.Autore{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(102, 0, 0);
+    margin-top: 30px;
+}
