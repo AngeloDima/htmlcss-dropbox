@@ -253,7 +253,7 @@ header{
 
 .Blocco3{
     width: 100%;
-    height: 110vh;
+    height: 130vh;
     background-color: aliceblue;
 }
 
@@ -277,7 +277,7 @@ header{
 
 .Blocco3-Card-box{
     width: 100%;
-    height: 75%;
+    height: 65%;
     background-color: rgb(175, 0, 0);
     display: flex;
     flex-direction: row;
@@ -316,8 +316,31 @@ header{
     background-color: #d6d6d6;
 }
 
+
+
+
+
+
+
 .Blocco3-CosoBasso{
     width: 100%;
-    height: 20%;
+    height: 30%;
     background-color: rgb(109, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+.MegaTitolone{
+    width: 100%;
+    height: 50%;
+    background-color: #507b9e;
+}
+
+.Link-in-basso{
+    width: 100%;
+    height: 20%;
+    background-color: yellowgreen;
+    
 }
