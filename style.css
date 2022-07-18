@@ -254,13 +254,13 @@ header{
 .Blocco3{
     width: 100%;
     height: 130vh;
-    background-color: aliceblue;
+    /* background-color: rgba(180, 180, 180, 0.411) */
 }
 
 .Blocco3-box{
     width: 60%;
     height: 100%;
-    background-color: #d6d6d6;
+    /* background-color: #d6d6d6; */
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -270,7 +270,7 @@ header{
 .Blocco3-Titolo{
     width: 100%;
     height: 5%;
-    background-color: red;
+    background-color: #bbbbbb;
     margin-bottom: 25px;
 }
 
@@ -278,7 +278,7 @@ header{
 .Blocco3-Card-box{
     width: 100%;
     height: 65%;
-    background-color: rgb(175, 0, 0);
+    /* background-color: rgb(175, 0, 0); */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -325,7 +325,7 @@ header{
 .Blocco3-CosoBasso{
     width: 100%;
     height: 30%;
-    background-color: rgb(109, 0, 0);
+    /* background-color: rgb(109, 0, 0); */
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -335,12 +335,12 @@ header{
 .MegaTitolone{
     width: 100%;
     height: 50%;
-    background-color: #507b9e;
+    background-color: #979797;
 }
 
 .Link-in-basso{
     width: 100%;
     height: 20%;
-    background-color: yellowgreen;
+    background-color: rgb(179, 179, 179);
     
 }
