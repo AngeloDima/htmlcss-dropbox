@@ -111,3 +111,19 @@ header{
     display: flex;
     background-color: aquamarine;
 }
+
+
+.Titolo-Caselle-cerchio{
+    width: 100%;
+    height: 15%;
+    background-color: yellow;
+    margin-top: 100px;
+}
+
+.Titolo-Caselle-cerchio > h2{
+    margin-bottom: 50px;
+}
+
+.FAT{
+    margin-right: 50px;
+}
