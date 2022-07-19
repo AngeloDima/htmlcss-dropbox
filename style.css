@@ -489,3 +489,41 @@ header{
 .sotto{
     border-bottom: 4px solid black;
 }
+
+
+/* Footer */
+
+
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(7, 0, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Footer-box{
+    width: 70%;
+    height: 60%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Colonne-footer{
+    width: 18%;
+    height: 100%;
+    background-color: red;
+}
+
+.Icona-inBasso-box{
+    width: 70%;
+    height: 30%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
