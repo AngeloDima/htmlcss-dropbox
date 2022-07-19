@@ -8,9 +8,12 @@
 header{
     width: 100%;
     height: 10vh;
-    /* background-color: rgba(0, 0, 0, 0.178); */
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    padding: 50px;
 }
 
 /* Header SX - DX */
@@ -59,12 +62,21 @@ header{
     font-family: 'Roboto', sans-serif;
 } 
 
+
+
+
+
+
+
+
+
+
 /* Main */
 
 
 .Conteiner-Principale{
     width: 100%;
-    height: 70vh;
+    height: 85vh;
     background-color: #b4d0e7;
 }
 
@@ -73,7 +85,7 @@ header{
     width: 70%;
     height: 100%;
     /* background-color: #da4804; */
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
@@ -85,10 +97,14 @@ header{
     height: 70%;
     /* background-color: #417baa; */
     display: flex;
+    margin-top: 3%;
 }
 
 
-
+.conteiner-p-img img{
+    height: 92%;
+    width: 70%;
+}
 
 
 
@@ -98,23 +114,47 @@ header{
 .Titolo-principale{
     width: 100%;
     height: 30%;
-    background-color: #008cff;
+    /* background-color: #008cff; */
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.Titolo-principale h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.8rem;
+    font-weight: 900;
 }
 
 
+
+
 .Paragrafo-principale{
-    width: 35%;
+    width: 30%;
     height: 100%;
-    background-color: #003f72;
+    /* background-color: #003f72; */
     display: flex;
 }
 
 
-.img-principale{
-    flex-grow: 1;
-    background-color: #00569c;
+.Paragrafo-principale p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #2c2c2c;
+    font-size: 1.2rem;
 }
 
+.img-principale{
+    flex-grow: 1;
+    /* background-color: #00569c; */
+}
+
+.img-principale img{
+    height: 111%;
+    position: relative;
+    left: 0%;
+    top: 8%;
+}
 
 
 
@@ -144,7 +184,7 @@ header{
     width: 100%;
     height: 15%;
     background-color:#b6b6b6;
-    margin-top: 100px;
+    margin-top: 15%;
 }
 
 .Titolo-Caselle-cerchio > h2{
