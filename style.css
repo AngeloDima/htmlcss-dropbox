@@ -355,28 +355,7 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* -----Colonna BL1X--------------------------------- */
 
 
 .Colonne-BL1X{
@@ -400,7 +379,78 @@ header{
     width: 100%;
     height: 80%;
     background-color: #d6d6d6;
+    display: flex;
+    flex-direction: column;
 }
+
+
+
+
+.Sopra-BL1X{
+    width: 100%;
+    height: 50%;
+    background-color: #ac55a7;
+    display: flex;
+    flex-direction: row;
+}
+
+.SX-BL1X{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+
+.SX-BL1X h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 25px 0px 10px 25px;
+}
+
+
+.SX-BL1X h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 0px 25px 0px;
+    font-size: 1rem;
+}
+
+
+
+
+.DX-BL1X{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(116, 2, 2);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
+.DX-BL1X input{
+    padding: 10px 30px;
+    background-color: #0089ff;
+    border: none;
+    color: white;
+    margin: 25px;
+}
+
+
+
+.Sotto-BL1X{
+    width: 100%;
+    height: 50%;
+    background-color: #6e5353;
+    display: flex;
+}
+
+
+
+
+
+
+
+
 
 
 
