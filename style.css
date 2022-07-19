@@ -527,7 +527,7 @@ header{
 
 .Blocco3{
     width: 100%;
-    height: 130vh;
+    height: 150vh;
     /* background-color: rgba(180, 180, 180, 0.411) */
 }
 
@@ -544,14 +544,20 @@ header{
 .Blocco3-Titolo{
     width: 100%;
     height: 5%;
-    background-color: #bbbbbb;
+    /* background-color: #bbbbbb; */
     margin-bottom: 25px;
 }
+
+.Blocco3-Titolo h2{
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
 
 
 .Blocco3-Card-box{
     width: 100%;
-    height: 65%;
+    height: 100%;
     /* background-color: rgb(175, 0, 0); */
     display: flex;
     flex-direction: row;
@@ -560,35 +566,56 @@ header{
 }
 
 
+
 .Blocco-card{
-    width: 30%;
+    width: 28%;
     height: 47%;
-    background-color: #008cff;
+    /* background-color: #008cff; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin-top: 30px;
 }
 
 
-.Card-img{
+
+.Card-Foto{
+width: 100%;
+height: 53%;
+/* background-color: red; */
+}
+
+.Card-Foto img{
     width: 100%;
-    height: 40%;
-    background-color: antiquewhite;
-    margin-bottom: -15%;
-}
-
-.card-Titolo{
-    width: 100%;
-    height: 15%;
-    background-color: #b6b6b6;
 }
 
 
-.card-Paragrafo{
-    width: 100%;
-    height: 30%;
-    background-color: #d6d6d6;
+.Card-Titolo{
+width: 100%;
+
+/* background-color: rgb(170, 0, 0); */
 }
+
+.Card-Titolo h3{
+    font-size: 1.7rem;
+    margin-right: 10%;
+    font-weight: 500;
+    padding: 5px 0px 0px 0px;
+}
+
+
+
+.Card-Descrizione{
+width: 100%;
+height: 36%;
+/* background-color: rgb(80, 0, 0); */
+}
+
+.Card-Descrizione p{
+    font-size: 1.15rem;
+    color: #242424;
+    padding: 20px 0px 0px 0px;
+}
+
 
 
 
