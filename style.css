@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 header{
@@ -104,10 +105,8 @@ header{
 .conteiner-p-img img{
     height: 92%;
     width: 70%;
+    display: flex;
 }
-
-
-
 
 
 
@@ -131,18 +130,39 @@ header{
 
 .Paragrafo-principale{
     width: 30%;
-    height: 100%;
+    height: 70%;
     /* background-color: #003f72; */
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 
-.Paragrafo-principale p{
+
+.Paragrafo-principale > p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #2c2c2c;
     font-size: 1.2rem;
 }
+
+
+.Paragrafo-principale > p:nth-child(3){
+    margin-top: 8%;
+}
+
+
+.Paragrafo-principale input{
+    padding: 13px 30px;
+    background-color: #008cff;
+    color: white;
+    margin-top: 10%;
+    border: none;
+}
+
+
+
 
 .img-principale{
     flex-grow: 1;
