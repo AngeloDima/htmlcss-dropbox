@@ -196,20 +196,28 @@ header{
     margin: auto;
     display: flex;
     flex-direction: column;
-    background-color: #00000010;
+    /* background-color: #00000010; */
 }
 
 
 .Titolo-Caselle-cerchio{
-    width: 100%;
+    width: 95%;
     height: 15%;
-    background-color:#b6b6b6;
-    margin-top: 15%;
+    /* background-color:#b6b6b6; */
+    margin: 15% auto 0%;
 }
 
 .Titolo-Caselle-cerchio > h2{
     margin-bottom: 50px;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
 }
+
+.Titolo-Caselle-cerchio > input{
+    margin-right: 3px;
+}
+
+
 
 .FAT{
     margin-right: 50px;
@@ -276,7 +284,7 @@ header{
 
 
 .Colonne-BL1X{
-    width: 100%;
+    width: 95%;
     height: 20%;
     /* background-color: blueviolet;  */
     border: 1px solid black;
