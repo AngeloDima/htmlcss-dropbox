@@ -14,7 +14,10 @@
 }
 
 
-
+.Flex-CenterY{
+    display: flex;
+    align-items: center;
+}
 
 
 
@@ -901,7 +904,7 @@ path{
 .Blocco6{
     width: 100%;
     height: 80vh;
-    background-color: #507b9e;
+    /* background-color: #507b9e; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -910,7 +913,7 @@ path{
 .Blocco6-box{
     width: 60%;
     height: 80%;
-    background-color: #00569c;
+    /* background-color: #00569c; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -921,27 +924,38 @@ path{
 .Blocco6-Titolo{
     width: 100%;
     height: 20%;
-    background-color: red;
+    /* background-color: red; */
     margin-bottom: 20px;
 }
+
+.Blocco6-Titolo h2{
+    font-size: 3.6rem;
+}
+
+.Sezioni h3{
+    font-size: 1.4rem;
+}
+
+
 
 .Sezioni{
     width: 100%;
     height: 18%;
-    background-color: rgb(160, 0, 0);
+    /* background-color: rgb(160, 0, 0); */
 }
 
 .sopra{
-    border-top: 4px solid black;
+    border-top: 2px solid #7e7e7e85;
 }
 
 .ALL{
-    border: 2px solid black;
+    border-top: 1px solid  #7e7e7e85;
+    border-bottom: 1px solid  #7e7e7e85;
 }
 
 
 .sotto{
-    border-bottom: 4px solid black;
+    border-bottom: 2px solid  #7e7e7e85;
 }
 
 
